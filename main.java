@@ -16,6 +16,9 @@ public class Main {
                 "integer values as you'd like. Only positive integers will be used for the calculations.");
 
 
+        // This loop prompts the user to enter a input. Before every input the
+        // user has the option stop giving inputs and begin the calculations
+
         while(true){
             Scanner scanner = new Scanner(System.in);
             System.out.println("Would you like to enter a value? Enter 'y' to submit a value." +
@@ -46,10 +49,15 @@ public class Main {
 
         }
 
+        // Convert the user input arrayList into an Array so it can be used with
+        // the array calculation methods.
+
         int[] calculationArray = new int[validInputArray.size()];
         for (int i = 0; i < validInputArray.size(); i++){
             calculationArray[i] = validInputArray.get(i);
         }
+
+        // Output the results
 
         if (calculationArray.length > 0){
             System.out.println("Count: " + calculationArray.length);
@@ -72,6 +80,8 @@ public class Main {
 
 
     }
+
+    // Methods created to compute the values
 
     public static int findMin(int[] Array){
         int Min = Array[0];
