@@ -1,4 +1,4 @@
-#Purpose
+# Purpose
 This program takes a set of numbers from a user and computes
 the maximum, minimum, mean, and median. The program also tracks
 the total count of valid inputs and invalid inputs as errors. Only
@@ -9,7 +9,7 @@ enter a number. They can type 'y' to enter a number or 'n' to begin the
 calculations. After every input the user will be prompted if they want
 to enter a number or begin the calculations.
 
-#Run the program
+# Run the program
 Navigate into the project.
 First compile the program. In your terminal type
 
