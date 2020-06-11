@@ -1,5 +1,3 @@
-
-
 #Purpose
 This program takes a set of numbers from a user and computes
 the maximum, minimum, mean, and median. The program also tracks
